@@ -1,0 +1,92 @@
+/* Reset de estilos ex 04c */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --preto: #000000; 
+    --branco: #ffffff; 
+    --lilas: #FF6DD7;      /* Paleta de cores ex 02a */
+    --rosaclaro: #FFA589; 
+    --azulclaro: #AAD1FF;
+    --azul: #19158A;
+    --roxoclaro: #BA80C5;
+  }
+  
+  /* uso das variáveis */
+body {
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+                
+  }
+    
+header {
+    background-color: #BA80C5; 
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+main {
+    height: 80%;
+    margin: 20px;
+    padding: 5em 2em 2em;
+    background-color: var(--branco);
+    border-radius: 8px;
+    box-shadow: 0, 0, 10px;
+    text-align: center;
+}
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    padding: 1 em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+form { 
+    margin: 50px;
+    padding: 10px;
+    background-color:   #FFA589;
+    color: #ffffff;
+    height:  450px;
+    width: 300px;
+}
+.formu {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #FFA589 ;  
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+}
+a:visited {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.a :hover  {
+   background-color: var(--azul);
+   text-decoration: none;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+
